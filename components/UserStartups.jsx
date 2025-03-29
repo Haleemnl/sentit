@@ -2,7 +2,7 @@
 import React from "react";
 import { client } from "@/sanity/lib/client";
 import { STARTUPS_BY_AUTHOR_QUERY } from "@/sanity/lib/queries";
-import StartUpCard from "@/components/StartupCard";
+import StartUpCard from "./StartUpCard";
 
 const UserStartups = async ({ id }) => {
 

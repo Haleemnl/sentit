@@ -5,8 +5,9 @@ import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import React from 'react'
 import { Suspense } from "react";
-import { StartupCardSkeleton } from "@/components/StartupCard";
+import { StartupCardSkeleton } from "@/components/StartUpCard";
 import UserStartups from '@/components/UserStartups'
+// import UserStartups from '@/components/UserStartups'
 
 
 export const experimental_ppr = true
