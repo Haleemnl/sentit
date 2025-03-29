@@ -37,7 +37,7 @@ export default async function Home({ searchParams }) {
         </p >
 
         {/* Dynamic card if posts is more than 0 then it should show the startupcard component, else no-result text */}
-        <ul ul className="mt-7 card_grid " >
+        <ul className="mt-7 card_grid " >
 
           {
             posts.length > 0 ? (
