@@ -1,10 +1,9 @@
 import React from 'react'
-import Ping from './ping'
 import { client } from '@/sanity/lib/client'
 import { STARTUP_VIEWS_QUERY } from '@/sanity/lib/queries'
 import { writeClient } from '@/sanity/lib/write-client'
 import { after } from 'next/server'
-// import { unstable_noStore } from 'next/cache'
+import Ping from './Ping'
 
 const View = async ({ id }) => {
 

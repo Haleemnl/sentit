@@ -32,7 +32,7 @@ export default async function Home({ searchParams }) {
       < section className="section_container" >
 
         {/* dynamically render query name if present */}
-        <p p className="text-30-semibold" >
+        <p className="text-30-semibold" >
           {query ? `Search Results For ${query}` : 'All Startups'}
         </p >
 
